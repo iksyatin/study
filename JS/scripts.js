@@ -1,18 +1,88 @@
 'use strict';
-// // --------------------------------------------
+// --------------------------------------------
 
 
 
 
 
-// // --------------------------------------------
+// --------------------------------------------
+if (1) {
+    console.log('OK');
+}else {
+    console.log('error');
+}
+
+const num = 50;
+if (num < 49) {
+    console.log('nepravda');
+}else if (num > 100){
+    console.log('nifiga')
+}else {console.log('dadada');
+}
+
+()условие ?иф :элс
+(num === 50) ? console.log('ok'): console.log('error');
+
+проверка переменной на строгое соответсвие(только равно, ни больше ни меньше
+switch (num) {
+    case 49:
+        console.log('неверное');
+        break;
+    case 100:
+        console.log('неа');
+        break;
+    case 50:
+        console.log('даааа');
+        break;
+    default:
+        console.log('что?');
+}
+
+
+let a = +prompt('Введите число от 0 до 10, я его угадаю', 'например 3');
+switch (a) {
+    case 0:
+        alert('Ноль?');
+        break;
+    case 1:
+        alert('1?');
+        break;
+    case 2:
+        alert('2?');
+        break;
+    case 3:
+        alert('3?');
+        break;
+    case 4:
+        alert('4?');
+        break;
+    case 5:
+        alert('5?');
+        break;
+    case 6:
+        alert('6?');
+        break;
+    case 7:
+        alert('7?');
+        break;
+    case 8:
+        alert('8?');
+        break;
+    case 9:
+        alert('9?');
+        break;
+    case 10:
+        alert('10?');
+        break;
+    default:
+        alert('просили же - от 0 до 10!');
+}
 
 
 
 
 
-
-// // --------------------------------------------
+// --------------------------------------------
 
 console.log('arr' + '-object');
 console.log(4 + +'5');
@@ -36,8 +106,8 @@ console.log((2+2)*2 !== '8');
 console.log((2+2)*2 !== +'8');
 
 
-// && это И
-// || это или
+&& это И
+|| это или
 
 const isChecked = true,
     isClose = false;
@@ -45,7 +115,7 @@ console.log(isChecked || isClose);
 console.log(isChecked && !isClose);
 
 
-// --------------------------------------
+--------------------------------------
 
 const category = 'toys';
 console.log(`https://someurl.com/${category}/5`);
@@ -53,7 +123,7 @@ console.log(`https://someurl.com/${category}/5`);
 const user = 'Ivan';
 alert(`Привет, ${user} сраный`);
 
-// -------------------------------
+-------------------------------
 
 
 alert('Hello');
@@ -72,7 +142,7 @@ answers[2] = prompt('Сколько вам лет?', '')
 document.write(answers);
 console.log(typeof(answers));
 console.log(typeof(null));
-// // ----------------------------------------
+----------------------------------------
 
 
 
@@ -103,4 +173,3 @@ console.log(obj ['name']);
 
 let arr = ['plim.png', 'orange.jpeg', 6, {}, [], 'apple.bmp'];
 console.log(arr[1]);
-
