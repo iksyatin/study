@@ -1,7 +1,25 @@
 'use strict';
 // --------------------------------------------
+let numb =50;
 
+while (numb <= 55) {
+    console.log(numb);
+    numb++;
+}
+do {
+    console.log(numb);
+    numb++;
+}
+while (numb <= 55);
 
+for (let i = 1; i < 10; i++) {
+    if (i == 6) {
+        // break;
+        continue;
+    }
+    console.log(i);
+    numb++
+}
 
 
 
@@ -20,10 +38,10 @@ if (num < 49) {
 }else {console.log('dadada');
 }
 
-()условие ?иф :элс
+// // ()условие ?иф :элс
 (num === 50) ? console.log('ok'): console.log('error');
 
-проверка переменной на строгое соответсвие(только равно, ни больше ни меньше
+// //проверка переменной на строгое соответсвие(только равно, ни больше ни меньше
 switch (num) {
     case 49:
         console.log('неверное');
@@ -106,8 +124,8 @@ console.log((2+2)*2 !== '8');
 console.log((2+2)*2 !== +'8');
 
 
-&& это И
-|| это или
+// && это И
+// || это или
 
 const isChecked = true,
     isClose = false;
@@ -121,12 +139,12 @@ const category = 'toys';
 console.log(`https://someurl.com/${category}/5`);
 
 const user = 'Ivan';
-alert(`Привет, ${user} сраный`);
+alert(`Привет, ${user} дорогой`);
 
 -------------------------------
 
 
-alert('Hello');
+// alert('Hello');
 
 const result = confirm('Are you here?');
 console.log(result);
